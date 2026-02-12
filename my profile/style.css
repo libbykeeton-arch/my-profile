@@ -1,0 +1,208 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(232, 225, 215);
+    text-align: center;
+    margin-top: 50 px;
+}
+
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: crimson;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 25px 50px;
+}
+
+.profile {
+      background: white;
+      border-radius: 20px;
+      padding: 30px 20px;
+      margin: 50px auto;
+      width: 1000px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.profile > div:hover {
+    box-shadow: gray 60px -16px;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.social-icon i {
+  font-size: 24px;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: rgb(255, 255, 255); }
+.linkedin  { background: linear-gradient(145deg, #0077B5, #005885); color: white; }
+
+
+h1 {
+    color: black;
+}
+
+.insta-feed {
+    align-items: center;
+}
+
+.insta-feed {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding:20px 0;
+    margin: 40px auto;
+    max-width: 1000px;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+}
+
+.insta-feed: ::-webkit-scrollbar {
+    height: 8px;
+}
+
+.insta-feed: ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.insta-feed img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0, 0, 0.2);
+}
+
+.aboutme {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.mywork {
+    background: white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin: 50px auto;
+    width: 1000px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.mywork > div:hover {
+    box-shadow: gray 60px -16px;
+}
+
+.mywork {
+    display: flex
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.mywork img {
+    width: 200px;
+    justify-content: space-between;
+    height: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0, 0, 0.2);
+}
+
+.mywork-text {
+    text-align: center;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    flex-direction: column;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    display: flex
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.card > div:hover {
+    box-shadow: gray 60px -16px;
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 150px;
+    height: 225px;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+.Title-top {
+    font-size: 20px;
+    color: #333;
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+    padding: 75px;
+}
+
